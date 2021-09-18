@@ -1,13 +1,25 @@
 /** CSS STYLE **/
+@font-face {
+  font-family: 'Neucha';
+  src: url('./fonts/Neucha-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url('./fonts/OpenSans-Regular.ttf')
+}
+
 html {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.6em;
   color: #2A2626;
 }
 
 .headers {
-  font-family: "Neucha";
+  font-family: Neucha;
   line-height: 1.2em;
 }
 
@@ -28,8 +40,4 @@ section {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-main {
-  font-size: 64px;
 }
