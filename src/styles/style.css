@@ -1,1 +1,35 @@
 /** CSS STYLE **/
+html {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+}
+
+.headers {
+  font-family: "Neucha";
+  line-height: 1.2em;
+}
+
+h1 {
+  72px;
+}
+
+h2 {
+  60px;
+}
+
+h3 {
+  34px;
+}
+
+section {
+  max-width: 1110px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+main {
+  font-size: 64px;
+}
